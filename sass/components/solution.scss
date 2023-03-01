@@ -6,19 +6,22 @@
 
 .solution{
 	&__bgima{
-		background-image: linear-gradient(
-		0deg,
-		rgba(47, 48, 58, 0.4),
-		rgba(47, 48, 58, 0.4)
-		),
-		url(../images/imagen17.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		max-width: 1600px;
-		margin: 0 auto;
 		padding-top: 200px;
 		padding-bottom: 200px;
+		max-width: 1600px;
+		min-height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/imagen18.jpg);
+		background-color: var(--hero-background-color);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		color: var(--white-txt-cl);
+		text-align: center;
+		padding-bottom: 210px;
+		margin:0px;
 	}
 
 
