@@ -318,15 +318,15 @@
 }
 
 .image1 {
-  background: url("../../images/imagen1.jpg");
+  background: url(../images/imagen1.jpg);
 }
 
 .image2 {
-  background: url("../../images/imagen2.jpg");
+  background: url(../images/imagen2.jpg);
 }
 
 .image3 {
-  background: url("../../images/imagen3.jpg");
+  background: url(../images/imagen3.jpg);
 }
 
 #header {
